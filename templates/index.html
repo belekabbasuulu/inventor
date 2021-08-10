@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h2> Сайт инвентаризации </h2>
+	<form action="" method="POST">
+		<input type="text" name="good">
+		<button> Добавить </button>
+	</form>
+	<ol>
+		{% for good in goods %}
+			<li> good </li>
+		{% endfor %}
+	</ol>
+
+</body>
+</html>
